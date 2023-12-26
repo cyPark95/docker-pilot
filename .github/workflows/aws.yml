@@ -76,9 +76,6 @@ jobs:
     - name: build gradle
       run: ./gradlew clean build
 
-    - name: Download dd-java-agent
-      run: wget -O assignment-api/dd-java-agent.jar https://dtdg.co/latest-java-tracer
-
     - name: Build, tag, and push image to Amazon ECR
       id: build-image
       env:
