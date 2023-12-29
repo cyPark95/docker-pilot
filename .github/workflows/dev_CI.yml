@@ -8,6 +8,7 @@ on:
       - '!.github/workflows/**'
       - '.github/**'
       - 'README.md'
+      - '.gitignore'
 
 permissions:
   contents: read

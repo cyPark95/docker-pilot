@@ -8,6 +8,7 @@ on:
       - '!.github/workflows/**'
       - '.github/**'
       - 'README.md'
+      - '.gitignore'
 
 env:
   AWS_REGION: ap-northeast-2
